@@ -7,15 +7,19 @@
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.2",
         "sensiolabs/security-checker": "^4.1",
+        "symfony/asset": "*",
         "symfony/console": "*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "*",
+        "symfony/orm-pack": "^1.0",
         "symfony/twig-bundle": "*",
         "symfony/web-server-bundle": "*",
         "symfony/yaml": "*"
     },
     "require-dev": {
-        "symfony/dotenv": "*"
+        "symfony/debug-pack": "^1.0",
+        "symfony/dotenv": "*",
+        "symfony/profiler-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
